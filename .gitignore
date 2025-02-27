@@ -1,0 +1,7 @@
+__pycache__/
+*.log
+*.npy
+*.h5
+dataset/
+venv/
+*.png
