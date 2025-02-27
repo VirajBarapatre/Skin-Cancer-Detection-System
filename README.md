@@ -76,6 +76,9 @@ Recall	74.3%
 🖼️ GUI Preview
 Skin Cancer Detection GUI
 
+![image](https://github.com/user-attachments/assets/da1dd850-c8ba-4068-8603-eaa08c550351)
+
+
 📄 License
 This project is licensed under the MIT License.
 
