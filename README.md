@@ -76,8 +76,6 @@ Recall	74.3%
 🖼️ GUI Preview
 Skin Cancer Detection GUI
 
-![image](https://github.com/user-attachments/assets/da1dd850-c8ba-4068-8603-eaa08c550351)
-
 
 📄 License
 This project is licensed under the MIT License.
@@ -86,3 +84,6 @@ This project is licensed under the MIT License.
 Viraj Barapatre
 LinkedIn: Viraj Barapatre
 GitHub: VirajBarapatre
+
+![Screenshot 2025-02-28 012251](https://github.com/user-attachments/assets/669f5138-c8c1-4793-9825-036735c7561c)
+
