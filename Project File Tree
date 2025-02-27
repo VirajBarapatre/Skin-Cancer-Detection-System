@@ -1,0 +1,24 @@
+📄 Project File Tree
+
+Skin-Cancer-Detection-System/
+│
+├── dataset/                  # Dataset Folder
+│   ├── images.npy            # Preprocessed Image Data
+│   ├── labels.npy            # Preprocessed Labels
+│   ├── X_test.npy            # Test Images
+│   ├── X_train.npy           # Training Images
+│   ├── y_test.npy            # Test Labels
+│   ├── y_train.npy           # Training Labels
+│   └── label_classes.npy      # Encoded Label Classes
+│
+├── model/                    # Saved Model Folder
+│   └── skin_cancer_model.h5   # Trained Model
+│
+├── gui.py                    # Tkinter GUI Code
+├── preprocess.py             # Data Preprocessing Code
+├── train_model.py            # Model Training Code
+├── evaluate.py               # Model Evaluation Code
+├── README.md                 # Project Documentation
+├── requirements.txt          # Required Libraries
+├── LICENSE                   # License File
+└── .gitignore                # Git Ignore File
