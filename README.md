@@ -57,6 +57,12 @@ python evaluate.py
 python gui.py
 
 ---
+| GUI Interface |
+|---------------|
+|![GUI Interface](https://github.com/user-attachments/assets/32946723-6aa3-41aa-9df5-ee71e8c99766)|
+
+
+---
 
 📌 Results
 Model Accuracy: 90%
