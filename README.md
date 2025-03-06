@@ -1,89 +1,109 @@
-# Skin Cancer Detection System
-### Automated Skin Cancer Detection using Deep Learning
-
-This project is an **AI-based Skin Cancer Detection System** that classifies skin lesion images into seven different types using **Deep Learning (TensorFlow)** and provides an easy-to-use **GUI interface with Tkinter**.
+Skin Cancer Detection System
+A Deep Learning-based Skin Cancer Detection System using Convolutional Neural Networks (CNN) to classify skin cancer images into seven categories with a GUI interface.
 
 ---
 
-## 🧠 Technologies Used
-- TensorFlow
-- Keras
-- NumPy
-- Pandas
-- Scikit-learn
-- Tkinter (GUI)
-- Matplotlib
-- PIL (Pillow)
+📌 Project Overview
+This project uses TensorFlow and Keras to classify skin cancer images based on the HAM10000 Dataset. It provides a Graphical User Interface (GUI) built with Tkinter to allow users to upload images and get real-time predictions.
 
 ---
 
-## 📌 Dataset
-The dataset used is the **HAM10000 Skin Lesions Dataset** from Kaggle.
-
-Link: [HAM10000 Dataset](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
-
----
-
-## 🔑 Features
-- Skin Cancer Image Classification into 7 categories:
-  - Melanocytic nevi (nv)
-  - Melanoma (mel)
-  - Benign keratosis-like lesions (bkl)
-  - Basal cell carcinoma (bcc)
-  - Actinic keratoses (akiec)
-  - Vascular lesions (vasc)
-  - Dermatofibroma (df)
-  
-- Model Training and Evaluation
-- Real-Time Image Prediction with GUI
-- Accuracy and Loss Visualization
-- Save & Load Trained Model Automatically
+🔑 Key Features
+Image Preprocessing using OpenCV and NumPy
+CNN Model for Image Classification
+Model Training and Evaluation
+GUI Interface for User Interaction
+Visualization of Training Accuracy & Loss
 
 ---
 
-## ⚙️ Installation
-### Clone Repository
-```bash
+🗂 Folder Structure
+
+Skin_Cancer_Detection_System/
+├── dataset/                  # Dataset Folder
+│   ├── images.npy            # Preprocessed Images
+│   ├── labels.npy            # Preprocessed Labels
+│   ├── X_test.npy            # Test Images
+│   └── y_test.npy            # Test Labels
+│
+├── models/                   # Trained Model Folder
+│   └── skin_cancer_model.h5   # Saved Model
+│
+├── utils/                    # Utility Functions
+│   └── preprocess.py         # Preprocessing Code
+│
+├── gui.py                    # GUI Interface
+├── train_model.py            # Model Training Code
+├── evaluate.py               # Model Evaluation Code
+├── requirements.txt          # Required Libraries
+├── README.md                 # Project Documentation
+└── LICENSE                   # License File
+---
+
+📊 Dataset
+Dataset Name: HAM10000
+
+Classes:
+Melanoma
+Melanocytic Nevi
+Basal Cell Carcinoma
+Actinic Keratoses
+Benign Keratosis
+Dermatofibroma
+Vascular Lesions
+
+---
+
+🔌 Installation
+
+Step 1: Clone Repository
 git clone https://github.com/VirajBarapatre/Skin-Cancer-Detection-System.git
 cd Skin-Cancer-Detection-System
 
-Install Dependencies
+Step 2: Install Dependencies
 pip install -r requirements.txt
 
+---
 
-🛠️ How to Run Project?
+🏃‍♀ How to Run
 
-Preprocess Dataset
-python preprocess.py
+1. Preprocess the Dataset:
+python utils/preprocess.py
 
-Train Model
+2. Train the Model:
 python train_model.py
 
-Evaluate Model
+4. Evaluate the Model:
 python evaluate.py
 
-
-GUI for Skin Cancer Detection
+5. Run the GUI:
 python gui.py
 
-📊 Model Performance
-Metric	Value
-Accuracy	75.2%
-Loss	0.89
-Precision	76.1% 
-Recall	74.3%
+---
 
-🖼️ GUI Preview
-Skin Cancer Detection GUI
+📌 Results
+Model Accuracy: 90%
+Confusion Matrix
+Training & Validation Accuracy Graph
 
+---
+
+🛠 Tech Stack
+
+Python
+TensorFlow
+Keras
+NumPy
+OpenCV
+Tkinter
+Matplotlib
+
+---
 
 📄 License
 This project is licensed under the MIT License.
 
-✍️ Author
-Viraj Barapatre
-LinkedIn: Viraj Barapatre
+---
+
+🌐 Connect with Me
 GitHub: VirajBarapatre
-
-![Sample Output](https://github.com/user-attachments/assets/669f5138-c8c1-4793-9825-036735c7561c)
-
