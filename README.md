@@ -17,29 +17,6 @@ Visualization of Training Accuracy & Loss
 
 ---
 
-🗂 Folder Structure
-
-Skin_Cancer_Detection_System/
-├── dataset/                  # Dataset Folder
-│   ├── images.npy            # Preprocessed Images
-│   ├── labels.npy            # Preprocessed Labels
-│   ├── X_test.npy            # Test Images
-│   └── y_test.npy            # Test Labels
-│
-├── models/                   # Trained Model Folder
-│   └── skin_cancer_model.h5   # Saved Model
-│
-├── utils/                    # Utility Functions
-│   └── preprocess.py         # Preprocessing Code
-│
-├── gui.py                    # GUI Interface
-├── train_model.py            # Model Training Code
-├── evaluate.py               # Model Evaluation Code
-├── requirements.txt          # Required Libraries
-├── README.md                 # Project Documentation
-└── LICENSE                   # License File
----
-
 📊 Dataset
 Dataset Name: HAM10000
 
